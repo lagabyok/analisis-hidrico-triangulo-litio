@@ -1,0 +1,11 @@
+pandas
+numpy
+matplotlib
+seaborn
+jupyter
+xarray
+netCDF4
+geopandas
+rasterio
+scipypython -m pip install --upgrade pip
+python -m pip install -r requirements.txt
