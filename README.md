@@ -8,7 +8,7 @@ Este proyecto propone investigar la evolución temporal y espacial de variables 
 
 Mediante el análisis de datos abiertos, se buscará identificar tendencias en el almacenamiento terrestre de agua, estudiar las variaciones de las precipitaciones y explorar posibles señales de estrés hídrico. También se investigará qué información hidrogeológica, ambiental y minera se encuentra disponible para evaluar posibles relaciones entre los cambios observados y las actividades desarrolladas en cada territorio.
 
-El proyecto tendrá como resultado una **visualización interactiva desarrollada en Python**, diseñada para que las personas usuarias puedan explorar los datos, seleccionar períodos, comparar áreas y examinar las variables disponibles sin depender de una interpretación única o predeterminada.
+El proyecto tendrá como resultado una **visualización interactiva desarrollada en Python**, diseñada para que las personas usuarias puedan explorar los datos, seleccionar períodos, comparar áreas y examinar las variables disponibles, lo que facilita la identificación de patrones, tendencias y diferencias. De este modo, se busca promover una exploración flexible y dinámica de la información.
 
 La investigación parte de una prioridad socioambiental: contribuir a la protección del agua, las comunidades que dependen de ella y los ecosistemas de la Puna.
 
@@ -65,13 +65,12 @@ Desarrollar una herramienta interactiva de exploración y análisis geoespacial 
 
 ## 6. Alcance geográfico y temporal
 
-El estudio se limitará a áreas seleccionadas de las provincias argentinas de Jujuy, Salta y Catamarca.
+El estudio se limitará a áreas seleccionadas de las provincias argentinas de Jujuy, Salta y Catamarca, en el sector correspondiente al Triángulo del Litio. La delimitación definitiva del área de estudio se establecerá considerando la ubicación de los salares y sus cuencas hidrográficas, la localización de los proyectos mineros y la disponibilidad y resolución espacial de los datos. Para ello, se priorizarán las características hidrográficas e hidrogeológicas del territorio, dado que la distribución de las cuencas y los sistemas de agua subterránea no necesariamente coincide con las divisiones políticas entre provincias.
 
-La delimitación definitiva se realizará considerando los salares, las cuencas hidrográficas pertinentes, la ubicación de los proyectos mineros y la disponibilidad y resolución de los datos. Los límites administrativos provinciales no se utilizarán automáticamente como equivalentes de los límites hidrogeológicos.
+El período de análisis se definirá una vez verificadas la cobertura temporal, la calidad, la continuidad y la comparabilidad de las fuentes de información disponibles.
 
-El período de análisis se determinará después de verificar la cobertura temporal, la calidad, la continuidad y la comparabilidad de las fuentes.
+El análisis se circunscribirá al territorio argentino y no incluirá áreas de Chile ni de Bolivia, aunque algunos sistemas hidrográficos e hidrogeológicos del área de estudio puedan extenderse más allá de las fronteras nacionales. Esta delimitación se considerará al interpretar los resultados, reconociendo que los procesos hídricos pueden estar vinculados con territorios que exceden el área analizada.
 
-El análisis principal no incluirá territorios de Chile ni Bolivia.
 
 ## 7. Fuentes de datos abiertas previstas
 
