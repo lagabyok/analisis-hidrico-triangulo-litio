@@ -1,0 +1,126 @@
+ GRACE
+======================================================================
+Raíz del proyecto: D:\CONTAR CON DATOS 2026\proyecto_agua_triangulo_litio
+Archivo: D:\CONTAR CON DATOS 2026\proyecto_agua_triangulo_litio\data\raw\grace\GRCTellus.JPL.200204_202607.GLO.RL06.3M.MSCNv04CRI.nc
+
+DIMENSIONES DEL DATASET
+  time: 259
+  lat: 360
+  lon: 720
+  bounds: 2
+
+VARIABLES Y COORDENADAS
+Variables: ['lwe_thickness', 'uncertainty', 'lat_bounds', 'lon_bounds', 'time_bounds', 'land_mask', 'scale_factor', 'mascon_ID', 'GAD']
+Coordenadas: ['lon', 'lat', 'time']
+
+======================================================================
+VARIABLE: land_mask
+Dimensiones: ('lat', 'lon')
+Forma: (360, 720)
+Tipo de dato: float64
+Unidades: binary
+Descripción: Land_Mask
+Atributos completos:
+  units: binary
+  long_name: Land_Mask
+  standard_name: Land_Mask
+  description: Land Mask that was used with the CRI filter
+Cantidad de valores únicos: 2
+Primeras 15 categorías y frecuencias:
+  0.0: 173,288
+  1.0: 85,912
+
+======================================================================
+VARIABLE: mascon_ID
+Dimensiones: ('lat', 'lon')
+Forma: (360, 720)
+Tipo de dato: float64
+Unidades: dimensionless
+Descripción: Mascon_Identifier
+Atributos completos:
+  units: dimensionless
+  long_name: Mascon_Identifier
+  standard_name: Mascon_ID
+  valid_min: 1.0
+  valid_max: 4551.0
+  description: Mascon identifier mapped to the grid
+Cantidad de valores únicos: 4551
+Primeras 15 categorías y frecuencias:
+  1.0: 2,160
+  2.0: 864
+  3.0: 864
+  4.0: 864
+  5.0: 864
+  6.0: 864
+  7.0: 360
+  8.0: 360
+  9.0: 360
+  10.0: 360
+  11.0: 360
+  12.0: 360
+  13.0: 360
+  14.0: 360
+  15.0: 360
+
+======================================================================
+VARIABLE: scale_factor
+Dimensiones: ('lat', 'lon')
+Forma: (360, 720)
+Tipo de dato: float64
+Unidades: dimensionless
+Descripción: Scale_Factor_CRI
+Atributos completos:
+  units: dimensionless
+  long_name: Scale_Factor_CRI
+  standard_name: Scale_Factor_CRI
+  valid_min: -2.8803287269599895
+  valid_max: 24.133988467789724
+  description: Gridded scale factors to be used with mascon solution thathas the CRI filter applied; based on CLM data from 2002-2009
+
+======================================================================
+VARIABLE: lwe_thickness
+Dimensiones: ('time', 'lat', 'lon')
+Forma: (259, 360, 720)
+Tipo de dato: float64
+Unidades: cm
+Descripción: Liquid_Water_Equivalent_Thickness
+Atributos completos:
+  units: cm
+  long_name: Liquid_Water_Equivalent_Thickness
+  standard_name: Liquid_Water_Equivalent_Thickness
+  grid_mapping: WGS84
+  valid_min: -2242.148950352851
+  valid_max: 1239.8808402648299
+  comment: Coastline Resolution Improvement (CRI) filter is applied
+
+======================================================================
+VARIABLE: uncertainty
+Dimensiones: ('time', 'lat', 'lon')
+Forma: (259, 360, 720)
+Tipo de dato: float64
+Unidades: cm
+Descripción: uncertainty
+Atributos completos:
+  units: cm
+  long_name: uncertainty
+  standard_name: uncertainty
+  grid_mapping: WGS84
+  valid_min: 0.22740321267317315
+  valid_max: 53.34469598560085
+  comment: 1-sigma uncertainty: not for each 0.5 degree grid cell, but for each 3-degree mascon estimate
+
+RANGO DE COORDENADAS
+  lat: -89.75 a 89.75
+  lon: 0.25 a 359.75
+  time: 2002-04-17T12:00:00.000000000 a 2026-07-16T12:00:00.000000000
+
+METADATOS GLOBALES RELEVANTES
+  title: JPL GRACE and GRACE-FO MASCON RL06.3Mv04 CRI
+  summary: Monthly gravity solutions from GRACE and GRACE-FO as determined from the JPL RL06.3Mv04 mascon solution - with CRI filter applied
+  time_coverage_start: 2002-04-16T00:00:00Z
+  time_coverage_end: 2026-07-16T23:59:59Z
+  months_missing: 2002-06;2002-07;2003-06;2011-01;2011-06;2012-05;2012-10;2013-03;2013-08;2013-09;2014-02;2014-07;2014-12;2015-06;2015-10;2015-11;2016-04;2016-09;2016-10;2017-02;2017-07;2017-08;2017-09;2017-10;2017-11;2017-12;2018-01;2018-02;2018-03;2018-04;2018-05;2018-08;2018-09
+  time_mean_removed: 2004.000 to 2009.999
+
+Inspección finalizada.
+(.venv) PS D:\CONTAR CON DATOS 2026> 

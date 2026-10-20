@@ -1,0 +1,4 @@
+variable,valores_validos,valores_faltantes,minimo,maximo
+land_mask,1500,0,0.0,1.0
+scale_factor,1151,349,-0.24656097037862074,3.6980357851906036
+mascon_ID,1500,0,2900.0,3742.0

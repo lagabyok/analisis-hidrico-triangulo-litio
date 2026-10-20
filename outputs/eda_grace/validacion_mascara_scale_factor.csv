@@ -1,0 +1,3 @@
+categoria_mascara,total_celdas,scale_factor_disponible,scale_factor_faltante
+Tierra (mask=1),1151,1151,0
+Fuera de máscara terrestre (mask=0),349,0,349

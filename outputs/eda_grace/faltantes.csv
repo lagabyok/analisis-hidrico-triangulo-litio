@@ -1,0 +1,13 @@
+﻿variable,elementos_totales,faltantes,porcentaje_faltantes,dtype,dimensiones
+lwe_thickness,67132800,0,0.0,float64,"time, lat, lon"
+uncertainty,67132800,0,0.0,float64,"time, lat, lon"
+lat_bounds,720,0,0.0,float64,"lat, bounds"
+lon_bounds,1440,0,0.0,float64,"lon, bounds"
+time_bounds,518,0,0.0,datetime64[ns],"time, bounds"
+land_mask,259200,0,0.0,float64,"lat, lon"
+scale_factor,259200,200292,77.27314814814815,float64,"lat, lon"
+mascon_ID,259200,0,0.0,float64,"lat, lon"
+GAD,67132800,0,0.0,float64,"time, lat, lon"
+lon,720,0,0.0,float64,lon
+lat,360,0,0.0,float64,lat
+time,259,0,0.0,datetime64[ns],time

@@ -1,0 +1,64 @@
+======================================================================
+INSPECCIÓN ESPACIAL PRELIMINAR DE GRACE
+======================================================================
+
+Tamaño de la ventana exploratoria:
+{'time': 259, 'lat': 50, 'lon': 30, 'bounds': 2}
+
+Rango de coordenadas:
+Longitud: -74.75 a -60.25
+Latitud: -39.75 a -15.25
+
+land_mask:
+  Valores válidos: 1500
+  Valores faltantes: 0
+  Mínimo: 0.0
+  Máximo: 1.0
+  Valores únicos: 2
+  Primeras 20 frecuencias:
+    0.0: 349
+    1.0: 1,151
+
+scale_factor:
+  Valores válidos: 1151
+  Valores faltantes: 349
+  Mínimo: -0.24656097037862074
+  Máximo: 3.6980357851906036
+
+mascon_ID:
+  Valores válidos: 1500
+  Valores faltantes: 0
+  Mínimo: 2900.0
+  Máximo: 3742.0
+  Valores únicos: 47
+  Primeras 20 frecuencias:
+    2900.0: 18
+    2901.0: 18
+    2902.0: 21
+    2903.0: 18
+    2904.0: 15
+    3014.0: 30
+    3015.0: 36
+    3016.0: 36
+    3017.0: 42
+    3018.0: 36
+    3126.0: 12
+    3127.0: 42
+    3128.0: 36
+    3129.0: 36
+    3130.0: 42
+    3131.0: 12
+    3236.0: 30
+    3237.0: 36
+    3238.0: 42
+    3239.0: 36
+
+Cobertura temporal de lwe_thickness:
+Mínimo de celdas válidas por mes: 1500
+Máximo de celdas válidas por mes: 1500
+Meses con cero celdas válidas: 0
+
+Archivos guardados en: D:\CONTAR CON DATOS 2026\proyecto_agua_triangulo_litio\outputs\eda_grace
+- resumen_espacial_ventana.csv
+- cobertura_temporal_ventana.csv
+(.venv) PS D:\CONTAR CON DATOS 2026> 

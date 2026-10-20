@@ -1,0 +1,9 @@
+﻿variable,cantidad,duplicados,primer_valor,ultimo_valor,elementos,valores_unicos,constante,proporcion_unicos
+time,259.0,0.0,2002-04-17T12:00:00.000000000,2026-07-16T12:00:00.000000000,,,,
+lat,360.0,0.0,-89.75,89.75,,,,
+lon,720.0,0.0,0.25,359.75,,,,
+land_mask,,,,,259200.0,2.0,False,7.71604938271605e-06
+mascon_ID,,,,,259200.0,4551.0,False,0.01755787037037037
+lon,,,,,720.0,720.0,False,1.0
+lat,,,,,360.0,360.0,False,1.0
+time,,,,,259.0,259.0,False,1.0

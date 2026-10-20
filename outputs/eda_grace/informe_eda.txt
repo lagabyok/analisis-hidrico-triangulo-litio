@@ -1,0 +1,263 @@
+EDA INICIAL DEL ARCHIVO GRACE
+Archivo: GRCTellus.JPL.200204_202607.GLO.RL06.3M.MSCNv04CRI.nc
+Tamaño: 45.99 MB
+
+DIMENSIONES
+time: 259
+lat: 360
+lon: 720
+bounds: 2
+
+METADATOS GLOBALES
+Conventions: CF-1.6, ACDD-1.3, ISO 8601
+Metadata_Conventions: Unidata Dataset Discovery v1.0
+standard_name_vocabulary: NetCDF Climate and Forecast (CF) Metadata Convention-1.6
+title: JPL GRACE and GRACE-FO MASCON RL06.3Mv04 CRI
+summary: Monthly gravity solutions from GRACE and GRACE-FO as determined from the JPL RL06.3Mv04 mascon solution - with CRI filter applied
+keywords: Solid Earth, Geodetics/Gravity, Gravity, liquid_water_equivalent_thickness
+keywords_vocabulary: NASA Global Change Master Directory (GCMD) Science Keywords
+platform: GRACE and GRACE-FO
+institution: NASA/JPL
+creator_name: David Wiese
+creator_email: grace@podaac.jpl.nasa.gov
+creator_url: https://grace.jpl.nasa.gov
+creator_type: group
+creator_institution: NASA/JPL
+publisher_name: Physical Oceanography Distributed Active Archive Center
+publisher_email: podaac@jpl.nasa.gov
+publisher_url: https://podaac.jpl.nasa.gov
+publisher_type: group
+publisher_institution: NASA/JPL
+project: NASA Gravity Recovery and Climate Experiment (GRACE) and NASA Gravity Recovery and Climate Experiment Follow-On (GRACE-FO)
+program: NASA Earth Science System Pathfinder and NASA Earth Systematic Missions Program
+id: 10.5067/TEMSC-3JC634
+naming_authority: org.doi.dx
+source: GRACE and GRACE-FO JPL RL06.3Mv04-CRI
+processing_level: 2 and 3
+acknowledgement: GRACE is a joint mission of NASA (USA) and DLR (Germany).  GRACE-FO is a joint mission of NASA (USA) and the German Research Center for Geosciences (GFZ).  Use the digital object identifier provided in the id attribute when citing this data.  See https://podaac.jpl.nasa.gov/CitingPODAAC
+license: https://science.nasa.gov/earth-science/earth-science-data/data-information-policy
+product_version: v3.0
+time_epoch: 2002-01-01T00:00:00Z
+time_coverage_start: 2002-04-16T00:00:00Z
+time_coverage_end: 2026-07-16T23:59:59Z
+geospatial_lat_min: -89.75
+geospatial_lat_max: 89.75
+geospatial_lat_units: degrees_north
+geospatial_lat_resolution: 0.5 degree grid; however the native resolution of the data is 3-degree equal-area mascons
+geospatial_lon_min: 0.25
+geospatial_lon_max: 359.75
+geospatial_lon_units: degrees_east
+geospatial_lon_resolution: 0.5 degree grid; however the native resolution of the data is 3-degree equal-area mascons
+time_mean_removed: 2004.000 to 2009.999
+months_missing: 2002-06;2002-07;2003-06;2011-01;2011-06;2012-05;2012-10;2013-03;2013-08;2013-09;2014-02;2014-07;2014-12;2015-06;2015-10;2015-11;2016-04;2016-09;2016-10;2017-02;2017-07;2017-08;2017-09;2017-10;2017-11;2017-12;2018-01;2018-02;2018-03;2018-04;2018-05;2018-08;2018-09
+postprocess_1:  OCEAN_ATMOSPHERE_DEALIAS_MODEL (GAD), MONTHLY_AVE, ADDED BACK TO OCEAN PIXELS ONLY
+postprocess_2: Water density used to convert to equivalent water height: 1000 kg/m^3
+postprocess_3: Coastline Resolution Improvement (CRI) filter has been applied to separate land/ocean mass within mascons that span coastlines
+GIA_removed: ICE6G-D; Peltier, W. R., D. F. Argus, and R. Drummond (2018) Comment on the paper by Purcell et al. 2016 entitled An assessment of ICE-6G_C (VM5a) glacial isostatic adjustment model, J. Geophys. Res. Solid Earth, 122.
+geocenter_correction: We use a version of TN-13 based on the JPL mascons
+C_20_substitution: TN-14; Loomis et al., 2019, Geophys. Res. Lett., doi:10.1029/2019GL082929
+C_30_substitution: TN-14; Loomis et al., 2019, Geophys. Res. Lett., doi:10.1029/2019GL082929.  This substitution is made for all months after August 2016.
+user_note_1: The accelerometer on the GRACE-B spacecraft was turned off after August 2016.  After this date, the accelerometer on GRACE-A was used to derive the non-gravitational accelerations acting on GRACE-B using a transplant procedure.  This has led to a subsequent degradation in the quality of the gravity fields derived.  The uncertainties in this file have been scaled to accomodate this degradation.
+user_note_2: The accelerometer on the GRACE-D spacecraft began performing sub-optimally after June 21, 2018.  After this date, the accelerometer on GRACE-C is used to derive the non-gravitational accelerations acting on GRACE-D using a transplant procedure.  The uncertainties in the file have been scaled to accomodate this degradation using the current best state of knowledge.
+journal_reference: Watkins, M. M., D. N. Wiese, D.-N. Yuan, C. Boening, and F. W. Landerer (2015) Improved methods for observing Earth's time variable mass distribution with GRACE using spherical cap mascons, J. Geophys. Res., 120, doi:10.1002/2014JB011547. 
+CRI_filter_journal_reference: Wiese, D. N., F. W. Landerer, and M. M. Watkins (2016) Quantifying and reducing leakage errors in the JPL RL05M GRACE mascon solution, Water Resour. Res., 52, doi:10.1002/2016WR019344. 
+date_created: 2026-09-08T08:09:18Z
+
+COORDENADAS TEMPORALES Y ESPACIALES
+{'variable': 'time', 'cantidad': 259, 'duplicados': 0, 'primer_valor': '2002-04-17T12:00:00.000000000', 'ultimo_valor': '2026-07-16T12:00:00.000000000'}
+{'variable': 'lat', 'cantidad': 360, 'duplicados': 0, 'primer_valor': '-89.75', 'ultimo_valor': '89.75'}
+{'variable': 'lon', 'cantidad': 720, 'duplicados': 0, 'primer_valor': '0.25', 'ultimo_valor': '359.75'}
+
+
+
+
+
+Tamaño MB: 45.99
+
+DIMENSIONES
+Frozen({'time': 259, 'lat': 360, 'lon': 720, 'bounds': 2})
+time: 259
+lat: 360
+lon: 720
+bounds: 2
+
+VARIABLES Y TIPOS
+- lwe_thickness: float64; dimensiones=('time', 'lat', 'lon'); unidades=cm
+- uncertainty: float64; dimensiones=('time', 'lat', 'lon'); unidades=cm
+- lat_bounds: float64; dimensiones=('lat', 'bounds'); unidades=degrees_north
+- lon_bounds: float64; dimensiones=('lon', 'bounds'); unidades=degrees_east
+- time_bounds: datetime64[ns]; dimensiones=('time', 'bounds'); unidades=no especificadas
+- land_mask: float64; dimensiones=('lat', 'lon'); unidades=binary
+- scale_factor: float64; dimensiones=('lat', 'lon'); unidades=dimensionless
+- mascon_ID: float64; dimensiones=('lat', 'lon'); unidades=dimensionless
+- GAD: float64; dimensiones=('time', 'lat', 'lon'); unidades=cm
+- lon: float64; dimensiones=('lon',); unidades=degrees_east
+- lat: float64; dimensiones=('lat',); unidades=degrees_north
+- time: datetime64[ns]; dimensiones=('time',); unidades=no especificadas
+{'variable': 'time', 'cantidad': 259, 'duplicados': 0, 'primer_valor': '2002-04-17T12:00:00.000000000', 'ultimo_valor': '2026-07-16T12:00:00.000000000'}
+{'variable': 'lat', 'cantidad': 360, 'duplicados': 0, 'primer_valor': '-89.75', 'ultimo_valor': '89.75'}
+{'variable': 'lon', 'cantidad': 720, 'duplicados': 0, 'primer_valor': '0.25', 'ultimo_valor': '359.75'}
+
+FALTANTES
+lwe_thickness: 0/67,132,800 (0.0000 %)
+uncertainty: 0/67,132,800 (0.0000 %)
+lat_bounds: 0/720 (0.0000 %)
+lon_bounds: 0/1,440 (0.0000 %)
+time_bounds: 0/518 (0.0000 %)
+land_mask: 0/259,200 (0.0000 %)
+scale_factor: 200,292/259,200 (77.2731 %)
+mascon_ID: 0/259,200 (0.0000 %)
+GAD: 0/67,132,800 (0.0000 %)
+lon: 0/720 (0.0000 %)
+lat: 0/360 (0.0000 %)
+time: 0/259 (0.0000 %)
+
+CARDINALIDAD Y VARIANZA CERO
+{'variable': 'land_mask', 'elementos': 259200, 'valores_unicos': 2, 'constante': False, 'proporcion_unicos': 7.71604938271605e-06}
+{'variable': 'mascon_ID', 'elementos': 259200, 'valores_unicos': 4551, 'constante': False, 'proporcion_unicos': 0.01755787037037037}
+{'variable': 'lon', 'elementos': 720, 'valores_unicos': 720, 'constante':False, 'proporcion_unicos': 1.0}
+{'variable': 'lat', 'elementos': 360, 'valores_unicos': 360, 'constante':False, 'proporcion_unicos': 1.0}
+{'variable': 'time', 'elementos': 259, 'valores_unicos': 259, 'constante': False, 'proporcion_unicos': 1.0}
+
+MUESTRA DE VALORES
+
+lwe_thickness
+Primeros 10: [-4.33096344 -4.33096344 -4.33096344 -4.33096344 -4.33096344-4.33096344
+ -4.33096344 -4.33096344 -4.33096344 -4.33096344]
+Últimos 10: [2.54104242 2.54104242 2.54104242 2.54104242 2.54104242 2.54104242
+ 2.54104242 2.54104242 2.54104242 2.54104242]
+Muestra aleatoria de hasta 100: [-4.33096344e+00 -1.87148075e-01 -6.15102500e-01 -5.06602460e-01
+ -9.51567991e-01  2.75631408e+00  1.71673820e-01  1.82501515e-01
+  2.24719265e+01  2.05608627e+00  4.75056284e+00  4.39232226e-01
+ -6.38330246e+00  2.21902950e+00  6.34730455e-01  1.33487011e+00
+ -8.74019338e-01  1.81643856e+00 -1.81977099e+01 -2.32455460e-02
+  5.72396713e+00  4.52138536e-01 -3.93088061e+00  8.03322063e-01
+ -1.81470617e-01 -6.19306911e+00  2.85441315e+00  1.60161963e+00
+  1.74044672e+00 -2.88312743e+00  1.74056940e+00 -8.28338354e+00
+ -2.03982177e+01  9.35981334e-01 -2.02850532e+01 -7.54112409e-01
+ -2.07653710e-01 -6.06338463e+00  3.73471979e+00 -3.69380123e+00
+  5.07217862e-01  1.91204981e+00 -1.81377121e+00 -2.80784215e+00
+ -3.20088054e+00  6.52465264e+00  6.13206019e+00  8.83969643e+00
+ -1.65920622e+00  5.52016721e+00  2.76336151e+00  7.36055516e+00
+  2.69068119e+00  1.32257799e+00  5.00006503e-01  2.20683053e+00
+  1.09958092e+00  2.90438687e+00  6.94205908e+00  7.37717369e+00
+  2.75299132e+00  2.17084967e+00  3.07732264e+00  2.73120869e+00
+  4.31377403e+00  1.98202699e+00  2.55162706e+00  1.32879958e+01
+  6.74964750e+00  1.07498507e-01  2.90994911e+00 -1.61727061e+00
+  2.04021622e+00  2.74128164e+00  4.11034400e+00  4.63441702e+00
+  9.79292335e-01 -8.58842217e+00  5.44973989e+00  1.68835780e+00
+  7.44787945e+00  3.39865010e+00  4.15045044e+00  1.03786179e+01
+  2.08516960e+00  2.02343712e+00 -9.91583289e+00  1.68968287e-01
+ -2.72972962e+01  2.48314996e+00  7.26458476e+01  2.91424719e+01
+  1.53189121e+01 -1.24140275e+00  3.95588015e+00  1.39260683e+01
+  3.48437783e+00 -2.82403433e+01  1.31444728e+01  2.87734261e+00]
+
+uncertainty
+Primeros 10: [3.08362558 3.08362558 3.08362558 3.08362558 3.08362558 3.08362558
+ 3.08362558 3.08362558 3.08362558 3.08362558]
+Últimos 10: [0.4438504 0.4438504 0.4438504 0.4438504 0.4438504 0.4438504 0.4438504
+ 0.4438504 0.4438504 0.4438504]
+Muestra aleatoria de hasta 100: [3.08362558 1.10426173 2.36564401 3.96933556 1.1507813  0.57662806
+ 0.96182545 2.73124671 1.96605564 1.2117495  1.77862203 1.79919482
+ 2.13977209 2.1541768  1.37230053 1.10741834 4.37510459 0.90611089
+ 4.26988251 0.950599   3.0580563  2.04178183 0.61827476 1.43194416
+ 1.61219941 2.5375188  2.21680402 3.61758928 1.34575447 1.3749834
+ 1.86206072 2.90527544 3.71797477 1.64434075 2.10653993 0.67289467
+ 2.03613377 1.61051284 1.43949219 0.58670471 1.18218508 1.43703997
+ 2.12438619 1.39319295 0.84414227 2.76974414 2.30717527 1.83008602
+ 1.30903553 1.36256569 0.95877    1.33406929 5.62096522 2.61586358
+ 2.02421894 0.83741483 1.03622802 2.27843362 1.60991261 1.66517597
+ 0.8655509  1.4364947  3.5494523  1.54066482 1.66213585 1.01201641
+ 1.36601212 3.88429278 2.64186508 1.27293925 1.97169656 1.30199591
+ 2.54607974 0.95628942 1.12139257 1.11998027 1.7328695  2.49790566
+ 0.22943636 1.27396571 1.71693001 1.67711142 1.1527661  0.84094563
+ 1.61419316 1.32926884 2.19916024 2.66457757 2.94363396 1.00038141
+ 2.29201815 3.82755912 4.46535317 1.64547782 0.91213568 0.7808443
+ 1.17754011 1.69954747 2.78819558 1.03912495]
+
+GAD
+Primeros 10: [0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+Últimos 10: [-0.4127407 -0.4127407 -0.4127407 -0.4127407 -0.4127407 -0.4127407
+ -0.4127407 -0.4127407 -0.4127407 -0.4127407]
+Muestra aleatoria de hasta 100: [ 0.         -0.03075809 -0.88102413  0.        0.79716545  2.74724293
+ -0.32260916 -0.67890584  0.          2.30322187  3.29663239 -0.38797623
+  0.          0.          1.23536904  0.68944776 -1.99342808  0.
+  0.         -0.44935008  0.88368156  0.         -2.82288976  1.17885287
+ -2.54723685  0.          0.         -0.11527865  1.88629788 -2.14738315
+  0.84676446  0.          0.          0.90559968  0.          0.
+  0.71988651  0.          3.21677759  0.          0.         -0.43357513
+  0.         -3.10824555 -1.05366148  0.          2.6042213   5.71805277
+ -1.39198481 -2.20066906  0.57232721  0.          0.24508902 -0.6784903
+  0.          0.20197841  0.         -1.17885612  3.44010897  1.82574823
+ -1.18673619 -0.42472999 -0.16072075 -0.55130461  0.48379394 -0.69364723
+  2.67715471  0.          1.75436916 -0.63398033  1.34898605  0.
+  0.          0.          0.98766812  2.21050452  0.          0.
+  0.         -0.6128611   2.83087596  0.52181114  1.20110681  2.55170046
+  0.53731133 -1.71987866  0.          0.13171425  3.68752391  0.24470593
+  0.         -1.08940738  0.          3.76609434  1.0677661   0.
+ -0.7281066   0.          0.         -0.3465951 ]
+
+ESTADÍSTICAS UNIVARIADAS
+
+lwe_thickness
+  n_muestra: 199800
+  media: -1.7057658088051
+  mediana: 1.0820560389658183
+  desvio_std: 35.202223882039334
+  varianza: 1239.1965662412206
+  minimo: -1162.4695404788686
+  q1: -1.2909937061770098
+  q2: 1.0820560389658183
+  q3: 3.7058093076669754
+  maximo: 474.5728234441744
+  asimetria: -14.828522165417269
+  curtosis: 320.3629346801501
+  limite_inferior_iqr: -8.786198226942988
+  limite_superior_iqr: 11.201013828432954
+  outliers_iqr_muestra: 23931
+d:\CONTAR CON DATOS 2026\proyecto_agua_triangulo_litio\src\01_eda_grace.py:404: MatplotlibDeprecationWarning: vert: bool was deprecated in Matplotlib 3.11 and will be removed in 3.13. Use orientation: {'vertical', 'horizontal'} instead.
+  ax.boxplot(valores, vert=False, showfliers=True)
+
+uncertainty
+  n_muestra: 199800
+  media: 1.8226479581184014
+  mediana: 1.4895784095603326
+  desvio_std: 1.2201731996541092
+  varianza: 1.4888226371541464
+  minimo: 0.22740321267317315
+  q1: 1.1545017747961037
+  q2: 1.4895784095603326
+  q3: 2.126990760526148
+  maximo: 44.32537963879014
+  asimetria: 4.614924046344812
+  curtosis: 58.097709064043535
+  limite_inferior_iqr: -0.3042317037989626
+  limite_superior_iqr: 3.5857242391212143
+  outliers_iqr_muestra: 14023
+d:\CONTAR CON DATOS 2026\proyecto_agua_triangulo_litio\src\01_eda_grace.py:404: MatplotlibDeprecationWarning: vert: bool was deprecated in Matplotlib 3.11 and will be removed in 3.13. Use orientation: {'vertical', 'horizontal'} instead.
+  ax.boxplot(valores, vert=False, showfliers=True)
+
+GAD
+  n_muestra: 199800
+  media: 0.04541454689602079
+  mediana: 0.0
+  desvio_std: 1.8202612246536287
+  varianza: 3.3133509259775282
+  minimo: -20.22791280613407
+  q1: -0.48104461898684725
+  q2: 0.0
+  q3: 0.46139854155162974
+  maximo: 30.85819093565368
+  asimetria: 1.0389394271682748
+  curtosis: 15.35883421769435
+  limite_inferior_iqr: -1.8947093597945628
+  limite_superior_iqr: 1.8750632823593452
+  outliers_iqr_muestra: 36596
+d:\CONTAR CON DATOS 2026\proyecto_agua_triangulo_litio\src\01_eda_grace.py:404: MatplotlibDeprecationWarning: vert: bool was deprecated in Matplotlib 3.11 and will be removed in 3.13. Use orientation: {'vertical', 'horizontal'} instead.
+  ax.boxplot(valores, vert=False, showfliers=True)
+
+=================================================================
+EDA FINALIZADO
+Resultados guardados en: D:\CONTAR CON DATOS 2026\proyecto_agua_triangulo_litio\outputs\eda_grace
+=================================================================
+(.venv) PS D:\CONTAR CON DATOS 2026> 
