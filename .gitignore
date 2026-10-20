@@ -1,0 +1,34 @@
+﻿# Entornos virtuales de Python
+.venv/
+.venv-descarga/
+venv/
+env/
+
+# Python: caché y archivos compilados
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Secretos y configuración local
+.env
+.env.*
+!.env.example
+
+# Archivos del sistema y editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.ipynb_checkpoints/
+
+# Datos originales: no subir datasets descargados
+data/raw/**
+!data/raw/**/
+!data/raw/**/.gitkeep
+
+# Archivos temporales y logs
+*.log
+*.tmp
+*.temp
+*.part
+*.download

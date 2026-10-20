@@ -1,4 +1,4 @@
-pandas
+﻿pandas
 numpy
 matplotlib
 seaborn
@@ -7,5 +7,4 @@ xarray
 netCDF4
 geopandas
 rasterio
-scipypython -m pip install --upgrade pip
-python -m pip install -r requirements.txt
+scipy
